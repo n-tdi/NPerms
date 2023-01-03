@@ -1,0 +1,13 @@
+name: NPerms
+version: '${project.version}'
+main: world.ntdi.nperms.NPerms
+api-version: 1.19
+prefix: NPerms
+authors: [ Ntdi ]
+description: A Permissions plugin done right.
+website: ntdi.world
+commands:
+  nperms:
+    permission: nperms.modify
+    usage: /nperms help
+    description: Modify permissions of a player
