@@ -17,6 +17,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <url>ntdi.world</url>
+         
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/n-tdi/NPerms</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
